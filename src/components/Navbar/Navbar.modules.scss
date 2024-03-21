@@ -77,7 +77,7 @@
         display: none;
     }
 
-
+    /*Início responsividade Tablets*/
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         padding: 0 0 0 1em;
 
@@ -103,6 +103,9 @@
         }
     }
 
+    /******Fim responsividade Tablets*******/
+
+    /*Início responsividade Celulares*/
     @media screen and (max-width: 767px) {
         padding: 1em;
         width: 100%;
@@ -167,4 +170,7 @@
             }
         }
     }
+
+    /*Fim responsividade Celulares*/
+
 }
