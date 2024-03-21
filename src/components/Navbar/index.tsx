@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './Navbar.modules.scss'
 import { Link } from 'react-router-dom'
 
+import logo from '../../assets/icons/logo.svg'
+
 
 
 const Navbar = () => {
@@ -15,7 +17,7 @@ const Navbar = () => {
     return (
 
         <nav className='nav-container'>
-            <img className='logo' src="../src/assets/icons/logo.svg" alt="logo website space tourism" />
+            <img className='logo' src={logo} alt="logo website space tourism" />
 
             <div className='nav-line'></div>
             <ul className='list-container'>
