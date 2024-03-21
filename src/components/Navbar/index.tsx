@@ -3,6 +3,10 @@ import './Navbar.modules.scss'
 import { Link } from 'react-router-dom'
 
 import logo from '../../assets/icons/logo.svg'
+import hamburger from '../../assets/icons/icon-hamburger.svg'
+import close from '../../assets/icons/icon-close.svg'
+
+
 
 
 
@@ -29,9 +33,9 @@ const Navbar = () => {
 
             <button onClick={showMenuResponsive} className='btn-hambuger'>
                 {showMenu ?
-                    <img className='menu-hambuger' src="../src/assets/icons/icon-close.svg" alt="Image menu hamburger" />
+                    <img className='menu-hambuger' src={hamburger} alt="Image menu hamburger" />
                     :
-                    <img className='menu-hambuger' src="../src/assets/icons/icon-hamburger.svg" alt="Image menu hamburger" />
+                    <img className='menu-hambuger' src={close} alt="Image menu hamburger" />
                 }
             </button>
 
