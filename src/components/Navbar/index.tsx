@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
 
         <nav className='nav-container'>
-            <img className='logo' src="../../../src/assets/icons/logo.svg" alt="logo website space tourism" />
+            <img className='logo' src="../src/assets/icons/logo.svg" alt="logo website space tourism" />
 
             <div className='nav-line'></div>
             <ul className='list-container'>
@@ -27,9 +27,9 @@ const Navbar = () => {
 
             <button onClick={showMenuResponsive} className='btn-hambuger'>
                 {showMenu ?
-                    <img className='menu-hambuger' src="../../../src/assets/icons/icon-close.svg" alt="Image menu hamburger" />
+                    <img className='menu-hambuger' src="../src/assets/icons/icon-close.svg" alt="Image menu hamburger" />
                     :
-                    <img className='menu-hambuger' src="../../../src/assets/icons/icon-hamburger.svg" alt="Image menu hamburger" />
+                    <img className='menu-hambuger' src="../src/assets/icons/icon-hamburger.svg" alt="Image menu hamburger" />
                 }
             </button>
 
