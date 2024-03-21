@@ -33,9 +33,9 @@ const Navbar = () => {
 
             <button onClick={showMenuResponsive} className='btn-hambuger'>
                 {showMenu ?
-                    <img className='menu-hambuger' src={hamburger} alt="Image menu hamburger" />
-                    :
                     <img className='menu-hambuger' src={close} alt="Image menu hamburger" />
+                    :
+                    <img className='menu-hambuger' src={hamburger} alt="Image menu hamburger" />
                 }
             </button>
 
