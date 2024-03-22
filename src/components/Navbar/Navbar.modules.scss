@@ -132,6 +132,7 @@
 
         .list-container {
             display: none;
+
         }
 
         .list-container-mobile {
@@ -146,7 +147,20 @@
             gap: 1em;
             background: rgba(255, 255, 255, 0.04);
             backdrop-filter: blur(40.7742px);
-            transition: 1s;
+            animation: slider 1s linear;
+
+            @keyframes slider {
+                from {
+                    transform: translateX(100%);
+                }
+
+                to {
+                    transform: translateX(0px);
+                }
+
+            }
+
+
 
             .list-item-mobile {
                 padding: 1em;
@@ -169,6 +183,8 @@
                 }
             }
         }
+
+
     }
 
     /*Fim responsividade Celulares*/

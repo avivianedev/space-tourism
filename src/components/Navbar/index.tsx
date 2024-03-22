@@ -7,9 +7,6 @@ import hamburger from '../../assets/icons/icon-hamburger.svg'
 import close from '../../assets/icons/icon-close.svg'
 
 
-
-
-
 const Navbar = () => {
 
     function showMenuResponsive() {
