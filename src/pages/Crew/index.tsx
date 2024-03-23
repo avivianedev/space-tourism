@@ -1,5 +1,6 @@
 import './Crew.modules.scss'
 import Navbar from '../../components/Navbar'
+import Title from '../../components/Title'
 
 const Crew = () => {
 
@@ -8,6 +9,11 @@ const Crew = () => {
             <header>
                 <Navbar />
             </header>
+
+            <Title
+                n={'02'}
+                title={'meet your crew'}
+            />
         </section>
     )
 }

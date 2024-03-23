@@ -1,0 +1,78 @@
+.title-container {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    gap: 1.5em;
+    justify-content: center;
+
+    .number {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        /* identical to box height */
+        letter-spacing: 4.725px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+
+
+    }
+
+    .title {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        /* identical to box height */
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    /*Início responsividade Tablets*/
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        padding: 2em;
+
+        .number {
+            font-size: 20px;
+
+        }
+
+        .title {
+            font-size: 20px;
+
+        }
+    }
+
+    /*Início responsividade Celulares*/
+    @media screen and (max-width: 767px) {
+        width: 100%;
+        justify-content: center;
+
+        .number {
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 2.7px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.25;
+
+
+        }
+
+        .title {
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 2.7px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+
+        }
+    }
+}

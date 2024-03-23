@@ -1,5 +1,6 @@
 import './Technology.modules.scss'
 import Navbar from '../../components/Navbar'
+import Title from '../../components/Title'
 
 
 const Technology = () => {
@@ -9,6 +10,10 @@ const Technology = () => {
             <header>
                 <Navbar />
             </header>
+            <Title
+                n={'03'}
+                title={'space launch 101'}
+            />
         </section>
     )
 }

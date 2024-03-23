@@ -1,5 +1,7 @@
-import Navbar from '../../components/Navbar'
 import './Destination.modules.scss'
+import Navbar from '../../components/Navbar'
+import Title from '../../components/Title'
+import Information from '../../components/Information'
 
 const Destination = () => {
 
@@ -8,6 +10,13 @@ const Destination = () => {
             <header>
                 <Navbar />
             </header>
+
+            <Title
+                n={'01'}
+                title={'Pick your destination'}
+            />
+
+            <Information />
         </section>
     )
 }

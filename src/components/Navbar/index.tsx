@@ -38,10 +38,10 @@ const Navbar = () => {
 
             {showMenu &&
                 <ul className='list-container-mobile'>
-                    <li className='list-item-mobile'><a href=""><span>00</span> Home</a></li>
-                    <li className='list-item-mobile'><a href=""><span>01</span> Destination</a></li>
-                    <li className='list-item-mobile'><a href=""><span>02</span> Crew</a></li>
-                    <li className='list-item-mobile'><a href=""><span>03</span> Technology</a></li>
+                    <li className='list-item-mobile'><Link to="/"><span>00</span> Home</Link></li>
+                    <li className='list-item-mobile'><Link to="/destination"><span>01</span> Destination</Link></li>
+                    <li className='list-item-mobile'><Link to="/crew"><span>02</span> Crew</Link></li>
+                    <li className='list-item-mobile'><Link to="/technology"><span>03</span> Technology</Link></li>
                 </ul>
             }
         </nav>
