@@ -6,12 +6,6 @@ const Information = () => {
 
     const [id, SetID] = useState('moon')
 
-    const getIdList = (e: any) => {
-        e.preventDefault()
-        SetID(e.target.text)
-
-    }
-
     return (
         <section className="info-container">
 
