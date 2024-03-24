@@ -2,9 +2,9 @@ import { useState } from 'react'
 import './Navbar.modules.scss'
 import { Link } from 'react-router-dom'
 
-import logo from '../../assets/icons/logo.svg'
-import hamburger from '../../assets/icons/icon-hamburger.svg'
-import close from '../../assets/icons/icon-close.svg'
+import logo from '/assets/icons/logo.svg'
+import hamburger from '/assets/icons/icon-hamburger.svg'
+import close from '/assets/icons/icon-close.svg'
 
 
 const Navbar = () => {

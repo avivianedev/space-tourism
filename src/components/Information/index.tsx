@@ -11,7 +11,7 @@ const Information = () => {
 
             {data.map((i: any) => (
                 <>
-                    <div className="image-planet">
+                    <div key={i} className="image-planet">
                         <img src={i[id]['image']} alt="image moon" />
 
                     </div>
